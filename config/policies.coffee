@@ -23,7 +23,4 @@ module.exports =
 			findOne:	['isAuth']
 			create:		['isAuth','setOwner']
 			update:		['isAuth']
-			destroy:	['isAuth']	
-		UserController:
-			'*':		false
-			find:		['isAuth']	
+			destroy:	['isAuth']

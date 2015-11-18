@@ -14,5 +14,5 @@ module.exports =
 			type: 		'string'
 			required:	true
 		createdBy:
-			model:		'user'
+			model: 		'user'
 			required:	true
